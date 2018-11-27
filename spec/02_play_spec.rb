@@ -81,7 +81,7 @@ describe './lib/tic_tac_toe.rb' do
 
     it 'congratulates the winner X' do
       board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-      # allow($stdout).to receive(:puts)
+      allow($stdout).to receive(:puts)
 
       expect($stdout).to receive(:puts).with("Congratulations X!")
 
