@@ -93,6 +93,7 @@ def winner(board)
 end
 
 def play(board)
+  puts "Hello"
   while !over?(board)
     turn(board)
     if won?(board)
